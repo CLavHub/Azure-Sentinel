@@ -2,5 +2,8 @@ Azure Sentinel is a cloud-native, scalable Security Information and Event Manage
 
 I followed a lab created by Josh Makador, here is the [video](https://youtu.be/RoZeVbbZ0o0?si=S-Y-lnG0aiwvNuZf)
 
-The lab begins by needing an Azure account. Creating an account gave me $200 which can suffice for the tools this lab needs. The main hub of this lab is going to be [Azure Portal](https://azure.microsoft.com/en-us/get-started/azure-portal). The first step is to create a Virtual Machine that is stripped of it's security measures. The Virtual Machine will act as a honeypot to attract various hackers, bots, etc. They will attempt to gain entry to the VM with RDP. 
+The lab begins by needing an Azure account. Creating an account gave me $200 which can suffice for the tools this lab needs. The main hub of this lab is going to be [Azure Portal](https://azure.microsoft.com/en-us/get-started/azure-portal). The first step is to create a Virtual Machine that is stripped of it's security measures. The Virtual Machine will act as a honeypot to attract various hackers, bots, etc. They will attempt to gain entry to the VM with RDP. The last step of creating the VM is the network section. I created a security group with all ports open 
+
+<img width="1435" alt="Azure Lab 1" src="https://github.com/CLavHub/Azure-Sentinel/assets/147277603/b2d6d531-d9e4-4c1b-afc5-6f470524aeb6">
+
 
